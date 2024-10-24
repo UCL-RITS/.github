@@ -1,6 +1,6 @@
 Research IT Services (RITS) was the first team of research software engineers and research computing specialists in University College London.
 
-The team was moved to the [**Centre for Advanced Research Computing**](https://ucl.ac.uk/arc) ([@UCL-ARC](https://github.com/UCL-ARC)) in 2022. 
+The team was moved to the [**Centre for Advanced Research Computing**](https://ucl.ac.uk/arc) ([@UCL-ARC](https://github.com/UCL-ARC)) in 2021. 
 This GitHub organisation is no longer actively used.
 We keep the historic organisation as a home for old projects and archived repositories.
 
