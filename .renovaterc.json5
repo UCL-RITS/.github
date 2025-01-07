@@ -1,0 +1,18 @@
+{
+  $schema: "https://docs.renovatebot.com/renovate-schema.json",
+  extends: [
+    "github>UCL-ARC/.github//renovate/default-config.json",
+    ":assignAndReview(paddyroddy)",
+    ":automergeAll",
+  ],
+    customManagers: [
+    {
+      customType: "regex",
+      description: "Update GitHub Safe-Settings version",
+      fileMatch: [".github/workflows/safe-settings.yaml$"],
+      matchStrings: ["SAFE_SETTINGS_VERSION:\\s(?<currentValue>.*)"],
+      depNameTemplate: "github/safe-settings",
+      datasourceTemplate: "github-releases",
+    },
+  ],
+}
